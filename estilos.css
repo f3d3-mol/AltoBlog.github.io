@@ -16,8 +16,19 @@ body{
 
 }
 
+.el-titulo{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    background-color: salmon;
+    margin: 0;
+}
+
 .blog{
     border:dotted 1px;
     margin: 0 auto;
     text-align: center;
+}
+
+.blog p{
+    color: #333;
 }
