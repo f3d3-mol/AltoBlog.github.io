@@ -2,6 +2,7 @@ html{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5;
 
 }
 
@@ -15,9 +16,22 @@ body{
     text-align: center;
 
 }
-
-.blog{
-    border:dotted 1px;
+.el-titulo{
     margin: 0 auto;
+    
+    background-color: black;
+
+}
+
+.el-titulo p{
+    font-size: 1rem;
+    margin: 0 auto;
+}
+.blog{
+    background-color: rgb(38, 32, 32);
+    border: dotted 0.2rem;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    
 }
