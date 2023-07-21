@@ -5,6 +5,9 @@ html{
     font-size: 62.5;
 
 }
+backcolor{
+    color: rgb(210, 226, 240);
+}
 
 body{
     background-color: rgb(210, 226, 240);
@@ -28,7 +31,7 @@ body{
     margin: 0 auto;
 }
 .blog{
-    background-color: rgb(38, 32, 32);
+    background-color:black;
     border: dotted 0.2rem;
     margin: 0;
     padding: 0;
@@ -37,5 +40,5 @@ body{
 }
 
 .blog p{
-    color: #333;
+    color: red;
 }
