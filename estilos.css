@@ -26,6 +26,28 @@ body{
     min-width: 400px;
 }
 
+.main-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: aquamarine;
+    
+
+
+
+}
+
+.main-nav__item{
+    display: inline-block;
+
+    justify-content: center;
+    background-color: azure;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.5rem 0;
+
+
+}
 #head--proyect{
     margin: 0 auto;
     background-color: var(--encabezados-color);
