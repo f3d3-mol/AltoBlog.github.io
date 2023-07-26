@@ -22,39 +22,65 @@ body{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    justify-content: center;
+    
     min-width: 400px;
 }
 
+header {
+
+    display: flex;
+    background-color: aquamarine;
+    height: 22px;
+    justify-content: space-between;
+
+    
+}
+
+.logo-header img{
+    height: 100%;
+
+    align-self: start;
+    
+}
 .main-nav{
     list-style: none;
     padding: 0;
-    margin: 0;
-    text-align: center;
-    background-color: aquamarine;
+    margin:0 ;
+    display: flex;
     
-
-
-
 }
 
-.main-nav__item{
-    display: inline-block;
 
-    justify-content: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-nav__item{
+    
     background-color: azure;
     padding: 0.1rem 0.4rem;
     border-radius: 0.5rem 0;
 }
 
 .main-nav__item:hover{
-    background-color:red;
+    background-color:transparent;
 }
 .main-nav__item:active{
     color:white;
+    border-color:black ;
 }
 
-#head--proyect{
+/* #head--proyect{
     margin: 0 auto;
     background-color: var(--encabezados-color);
     border-radius: 2rem;
@@ -86,4 +112,4 @@ body{
 }
 .blog p{
     color: red;
-}
+} */
