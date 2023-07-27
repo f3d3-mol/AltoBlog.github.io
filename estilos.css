@@ -70,6 +70,7 @@ header {
     background-color: azure;
     padding: 0.1rem 0.4rem;
     border-radius: 0.5rem 0;
+    margin: 0 2px;
 }
 
 .main-nav__item:hover{
@@ -80,7 +81,11 @@ header {
     border-color:black ;
 }
 
-/* #head--proyect{
+
+
+
+
+#head--proyect{
     margin: 0 auto;
     background-color: var(--encabezados-color);
     border-radius: 2rem;
@@ -112,4 +117,4 @@ header {
 }
 .blog p{
     color: red;
-} */
+}
