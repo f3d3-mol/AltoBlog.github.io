@@ -47,21 +47,8 @@ header {
     padding: 0;
     margin:0 ;
     display: flex;
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -80,6 +67,60 @@ header {
     color:white;
     border-color:black ;
 }
+
+
+
+
+
+footer{
+    display: flex;
+
+    background-color: blue;
+
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+
+.footer--ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+.footer--lis{
+    margin: 0.2;
+    padding: 0.6rem;
+
+}
+
+.footer--lis:hover{
+    background-color: aquamarine;
+    color: deeppink;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
