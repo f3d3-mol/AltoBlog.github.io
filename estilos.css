@@ -30,23 +30,29 @@ header {
 
     display: flex;
     background-color: aquamarine;
+    
     height: 22px;
     justify-content: space-between;
 
     
 }
+header nav{
+    display: flex;
+}
 
 .logo-header img{
     height: 100%;
-    
+/*     aling self solo funciona en vertical, por lo cual esta line no toma funcionalidad
     align-self: start;
-
+ */
 }
 .main-nav{
     list-style: none;
     padding: 0;
     margin:0 ;
     display: flex;
+    align-self: center;
+
     
 }
 
@@ -58,6 +64,7 @@ header {
     padding: 0.1rem 0.4rem;
     border-radius: 0.5rem 0;
     margin: 0 2px;
+    
 }
 
 .main-nav__item:hover{
@@ -110,23 +117,6 @@ footer{
     color: deeppink;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #head--proyect{
     margin: 0 auto;
